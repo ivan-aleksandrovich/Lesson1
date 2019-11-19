@@ -32,6 +32,7 @@ else
     gipotinyza = c
 end
 
+
 if (gipotinyza ** 2) == (variable1**2) + (variable2**2)
     print "We find right triangle"
 elsif (a == b)&&(b != c)||(b == c)&&(a != c)||(a == c)&&(b != c)
