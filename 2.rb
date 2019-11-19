@@ -9,5 +9,4 @@ base = gets.chomp.to_i
 puts "Write your height"
 height= gets.chomp.to_i
 result =  0,5*base*height
-
 print 'result = ' , result[1]
