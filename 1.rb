@@ -8,11 +8,14 @@
 
 puts "Write your name"
 name = gets.chomp
-puts "Write your height"
-height = gets.chomp.to_i
-if height>=110
-    height= height -110
-  print "#{name}, your ideal weight ", height
+puts "Write your weight"
+#Поменял согласно рекомендации на weight
+weight = gets.chomp.to_i
+if weight >= 110
+  #сделал отступы в 2 пробела
+  weight = weight -110
+  print "#{name}, your ideal weight ", weight
 elsif
   print "Your weight is already optimal"
 end
+#настроил автодобовление пустой строки

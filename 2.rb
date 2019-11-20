@@ -7,6 +7,7 @@
 puts "Write your base"
 base = gets.chomp.to_i
 puts "Write your height"
-height= gets.chomp.to_i
-result =  0,5*base*height
-print 'result = ' , result[1]
+height = gets.chomp.to_i
+#исправил на 0.5
+result = 0.5 * base * height
+puts 'Result is = ', result.to_i

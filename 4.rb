@@ -14,14 +14,17 @@ puts 'Write b'
 b = gets.chomp.to_i
 puts 'Write c'
 c = gets.chomp.to_i
-
 d = b**2 - 4 * a * c
-
+result_squad = Math.sqrt(d)
+#Добавил вывод дискрименанта 
 if d < 0
   puts 'No roots!'
-elsif d == 1
+  d = b**2 - 4 * a * c
+  #Поменял на d.zero
+elsif d.zero?
   puts "Result is: #{-b/(2 * a)}"
 else
-  puts "X(1) is: #{(-b + Math.sqrt(d))/(2 * a)}"
-  puts "X(2) is: #{(-b - Math.sqrt(d))/(2 * a)}"
+  #Сделал переменную и применяю ее
+  puts "X(1) is: #{(-b + result_squad)/(2 * a)}"
+  puts "X(2) is: #{(-b - result_squad)/(2 * a)}"
 end
