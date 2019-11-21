@@ -10,4 +10,4 @@ puts "Write your height"
 height = gets.chomp.to_i
 #исправил на 0.5
 result = 0.5 * base * height
-puts 'Result is = ', result.to_i
+puts 'Result is = ', result.round(2)

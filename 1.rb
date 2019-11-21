@@ -13,7 +13,7 @@ puts "Write your weight"
 weight = gets.chomp.to_i
 if weight >= 110
   #сделал отступы в 2 пробела
-  weight = weight -110
+  weight = weight - 110
   print "#{name}, your ideal weight ", weight
 elsif
   print "Your weight is already optimal"
